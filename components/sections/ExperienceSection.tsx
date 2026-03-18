@@ -38,6 +38,21 @@ export default function ExperienceSection() {
         'Marketing campaigns',
         'Directing and producing video shoots'
       ]
+    },
+    {
+      id: 'creamsale',
+      logoName: 'CreamSale.png',
+      url: '#',
+      role: '2020 — Проект CreamSale',
+      roleEn: '2020 — CreamSale Project',
+      achievements: [
+        'Разработка концепции проекта',
+        'Скоро обновление информации'
+      ],
+      achievementsEn: [
+        'Project concept development',
+        'Update coming soon'
+      ]
     }
   ];
 
