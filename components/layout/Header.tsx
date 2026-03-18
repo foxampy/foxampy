@@ -12,7 +12,6 @@ const menuItemsConfig = [
   { path: '#process', label: 'ПРОЦЕСС', labelEn: 'PROCESS' },
   { path: '#projects', label: 'ПРОЕКТЫ', labelEn: 'PROJECTS' },
   { path: '#fashion', label: 'МОДА', labelEn: 'FASHION' },
-  { path: '#architecture', label: 'АРХИТЕКТУРА', labelEn: 'ARCHITECTURE' },
   { path: '#video', label: 'ВИДЕО', labelEn: 'VIDEO' },
 ];
 

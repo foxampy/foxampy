@@ -18,11 +18,6 @@ export interface Translations {
       title: string;
       description: string;
     };
-    architecture: {
-      accent: string;
-      title: string;
-      description: string;
-    };
     video: {
       title: string;
     };
@@ -47,13 +42,6 @@ export interface Translations {
       solution: string;
       visuals: string;
     };
-    parametricArchitecture: {
-      title: string;
-      category: string;
-      description: string;
-      solution: string;
-      visuals: string;
-    };
     rd: {
       iot: {
         title: string;
@@ -61,11 +49,6 @@ export interface Translations {
         description: string;
       };
       quantum: {
-        title: string;
-        category: string;
-        description: string;
-      };
-      water: {
         title: string;
         category: string;
         description: string;
@@ -98,11 +81,6 @@ export const translations: Record<Language, Translations> = {
         title: 'Fashion',
         description: 'Designer clothing collection combining Central Asian culture with the freedom of modern urban style',
       },
-      architecture: {
-        accent: 'Space',
-        title: 'Architecture',
-        description: '',
-      },
       video: {
         title: 'Video & CGI',
       },
@@ -127,13 +105,6 @@ export const translations: Record<Language, Translations> = {
         solution: 'Implemented a neural network for recognizing handwritten and printed addresses with 99.2% accuracy. Developed an algorithm for optimal route planning that reduced delivery time by 35%. Created a mobile application for couriers with AR navigation.',
         visuals: 'Interface design based on the metaphor of digital streams: smooth data flows, dynamic maps with animated routes, minimalist cards for tracking packages. The color palette combines corporate blue with energetic orange accents.',
       },
-      parametricArchitecture: {
-        title: 'Parametric Pavilion',
-        category: 'Architecture / Design',
-        description: 'Design of a temporary exhibition pavilion using parametric modeling and digital fabrication. The structure consists of 1200 unique plywood elements connected by a system of nodal joints.',
-        solution: 'Developed a parametric model that automatically generates structural elements based on given constraints: span length, load, and material. Optimized the geometry for minimal waste during cutting. Created detailed instructions for assembly without specialized equipment.',
-        visuals: 'Architectural concept combines organic forms with structural expressiveness: flowing lines reminiscent of natural growth patterns, honest demonstration of structural forces through variable section elements, play of light and shadow through perforations.',
-      },
       rd: {
         iot: {
           title: 'IoT Ecosystem',
@@ -144,11 +115,6 @@ export const translations: Record<Language, Translations> = {
           title: 'Quantum Research',
           category: 'Quantum Computing',
           description: 'Research in quantum algorithms for optimization problems and cryptographic protocols',
-        },
-        water: {
-          title: 'Water Tokenization',
-          category: 'Sustainability / Blockchain',
-          description: 'Blockchain platform for accounting and trading water resources with IoT sensors integration',
         },
       },
     },
@@ -176,11 +142,6 @@ export const translations: Record<Language, Translations> = {
         title: 'Мода',
         description: 'Коллекция дизайнерской одежды сочетания культуры Средней Азии и свободы современного урбана',
       },
-      architecture: {
-        accent: 'Пространство',
-        title: 'Архитектура',
-        description: '',
-      },
       video: {
         title: 'Видео и CGI',
       },
@@ -205,13 +166,6 @@ export const translations: Record<Language, Translations> = {
         solution: 'Внедрили нейросеть для распознавания рукописных и печатных адресов с точностью 99.2%. Разработали алгоритм оптимального планирования маршрутов, сокративший время доставки на 35%. Создали мобильное приложение для курьеров с AR-навигацией.',
         visuals: 'Дизайн интерфейса построен на метафоре цифровых потоков: плавные потоки данных, динамические карты с анимированными маршрутами, минималистичные карточки для отслеживания посылок. Цветовая палитра сочетает корпоративный синий с энергичными оранжевыми акцентами.',
       },
-      parametricArchitecture: {
-        title: 'Параметрический павильон',
-        category: 'Архитектура / Дизайн',
-        description: 'Проект временного выставочного павильона с использованием параметрического моделирования и цифрового производства. Конструкция состоит из 1200 уникальных элементов из фанеры, соединенных системой узловых соединений.',
-        solution: 'Разработали параметрическую модель, автоматически генерирующую конструктивные элементы на основе заданных ограничений: пролет, нагрузка, материал. Оптимизировали геометрию для минимальных отходов при раскрое. Создали детальные инструкции для сборки без специализированного оборудования.',
-        visuals: 'Архитектурная концепция сочетает органические формы с конструктивной выразительностью: плавные линии, напоминающие природные паттерны роста, честная демонстрация силовых воздействий через элементы переменного сечения, игра света и тени через перфорации.',
-      },
       rd: {
         iot: {
           title: 'IoT Экосистема',
@@ -222,11 +176,6 @@ export const translations: Record<Language, Translations> = {
           title: 'Квантовые исследования',
           category: 'Квантовые вычисления',
           description: 'Исследования в области квантовых алгоритмов для задач оптимизации и криптографических протоколов',
-        },
-        water: {
-          title: 'Токенизация воды',
-          category: 'Устойчивое развитие / Блокчейн',
-          description: 'Блокчейн-платформа для учета и торговли водными ресурсами с интеграцией IoT-датчиков',
         },
       },
     },

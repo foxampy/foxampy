@@ -4,7 +4,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import {
   Layers,
   Shirt,
-  Compass,
   Film,
   FlaskConical,
   ChevronRight,
@@ -39,14 +38,6 @@ const fashionImages = [
   '/gallery/photo_2026-01-30_12-28-02.jpg',
   '/gallery/photo_2026-01-30_12-28-05.jpg',
   '/gallery/photo_2026-01-30_12-28-08.jpg',
-];
-
-const architectureImages = [
-  '/architecture/image_2024-08-21_21-32-32.png',
-  '/architecture/image_2024-08-21_21-32-39.png',
-  '/architecture/image_2024-08-21_21-32-44.png',
-  '/architecture/image_2024-08-21_21-32-49.png',
-  '/architecture/image_2024-08-21_21-32-54.png',
 ];
 
 function ImageCarousel({ images }: { images: string[] }) {
@@ -201,26 +192,6 @@ export default function GalleryPage() {
       projects: []
     },
     {
-      id: 'architecture',
-      title: t('gallery.architecture.title'),
-      accent: t('gallery.architecture.accent'),
-      icon: <Compass size={18} />,
-      description: t('gallery.architecture.description'),
-      isCarousel: true,
-      images: architectureImages,
-      projects: [
-        {
-          id: 'parametric-architecture',
-          title: t('cases.parametricArchitecture.title'),
-          category: t('cases.parametricArchitecture.category'),
-          description: t('cases.parametricArchitecture.description'),
-          solution: t('cases.parametricArchitecture.solution'),
-          visuals: t('cases.parametricArchitecture.visuals'),
-          icon: <Compass size={20} />
-        }
-      ]
-    },
-    {
       id: 'research',
       title: t('gallery.research.title'),
       accent: t('gallery.research.accent'),
@@ -313,15 +284,6 @@ TRANSPARENCY STANDARDS:
           solution: '',
           visuals: '',
           icon: <Droplets size={20} />
-        },
-        {
-          id: 'rd-water',
-          title: t('cases.rd.water.title'),
-          category: t('cases.rd.water.category'),
-          description: t('cases.rd.water.description'),
-          solution: '',
-          visuals: '',
-          icon: <FlaskConical size={20} />
         }
       ]
     }

@@ -21,25 +21,6 @@ export default function ExperienceSection() {
 
   const companies: Company[] = [
     {
-      id: 'culligan',
-      logoName: 'Culligan.png',
-      url: 'https://www.culligan.com',
-      role: 'Marketing Specialist → Assistant Marketing Director',
-      roleEn: 'Marketing Specialist → Assistant Marketing Director',
-      achievements: [
-        'Тендеры и выставки',
-        'Развитие Евразийского направления',
-        'B2B маркетинг',
-        'Рост капитализации на $6 млрд'
-      ],
-      achievementsEn: [
-        'Tenders and exhibitions',
-        'Eurasian direction development',
-        'B2B marketing',
-        '$6B capitalization growth'
-      ]
-    },
-    {
       id: 'done',
       logoName: 'Done.png',
       url: 'https://done.co.il',
@@ -56,63 +37,6 @@ export default function ExperienceSection() {
         'App development',
         'Marketing campaigns',
         'Directing and producing video shoots'
-      ]
-    },
-    {
-      id: 'unicap',
-      logoName: 'UNICAP.png',
-      url: 'https://unicap.invest.org',
-      role: 'Creative Director (People-first PPP Fund)',
-      roleEn: 'Creative Director (People-first PPP Fund)',
-      achievements: [
-        'Маркетинг фонда',
-        'Портфель инвестиционных проектов',
-        'Презентации для инвесторов'
-      ],
-      achievementsEn: [
-        'Fund marketing',
-        'Investment project portfolio',
-        'Investor presentations'
-      ]
-    },
-    {
-      id: 'culligan',
-      logoName: 'Culligan.png',
-      url: 'https://www.culligan.com',
-      role: 'Marketing Specialist → Assistant Marketing Director',
-      roleEn: 'Marketing Specialist → Assistant Marketing Director',
-      achievements: [
-        'Тендеры и выставки',
-        'Развитие Евразийского направления',
-        'B2B маркетинг',
-        'Рост капитализации на $6 млрд'
-      ],
-      achievementsEn: [
-        'Tenders and exhibitions',
-        'Eurasian direction development',
-        'B2B marketing',
-        '$6B capitalization growth'
-      ]
-    },
-    {
-      id: 'realting',
-      logoName: 'Realting.png',
-      url: 'https://realting.uz',
-      role: 'Product & Research Lead',
-      roleEn: 'Product & Research Lead',
-      achievements: [
-        'Исследование рынка B2B/B2C/B2G',
-        'Цифровой реестр прав собственности (Title Registry)',
-        'Chain of Title — полная история сделок',
-        'Аккредитация риелторов и агентств',
-        'Смарт-контракты для токенизации недвижимости'
-      ],
-      achievementsEn: [
-        'B2B/B2C/B2G market research',
-        'Digital Title Registry',
-        'Chain of Title — complete transaction history',
-        'Realtor and agency accreditation',
-        'Smart contracts for real estate tokenization'
       ]
     }
   ];

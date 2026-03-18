@@ -115,32 +115,11 @@ export default function AboutSection() {
           </p>
 
           <p className="text-lg text-white/50 leading-relaxed max-w-lg font-light text-right mb-8">
-            {language === 'ru' 
+            {language === 'ru'
               ? 'Создаю устойчивые системы на пересечении бизнеса, дизайна и технологий. Работаю с комплексными проектами требующими системного подхода и междисциплинарного мышления'
               : 'Creating sustainable systems at the intersection of business, design and technology. Working with complex projects requiring a systematic approach and interdisciplinary thinking'
             }
           </p>
-
-          {/* Achievements */}
-          <motion.div 
-            className="flex flex-wrap justify-end gap-3"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.6, duration: 0.5 }}
-          >
-            <div className="px-4 py-2 border border-white/10 bg-white/[0.03] rounded-sm">
-              <span className="text-[10px] font-mono text-white/40 uppercase block">{language === 'ru' ? 'Достижения' : 'Achievements'}</span>
-              <span className="text-xs font-mono text-white/70">{language === 'ru' ? '1-е место Everscale Hackathon' : '1st place Everscale Hackathon'}</span>
-            </div>
-            <div className="px-4 py-2 border border-white/10 bg-white/[0.03] rounded-sm">
-              <span className="text-[10px] font-mono text-white/40 uppercase block">{language === 'ru' ? 'YouTube' : 'YouTube'}</span>
-              <span className="text-xs font-mono text-white/70">{language === 'ru' ? '9.2 млн просмотров' : '9.2M views'}</span>
-            </div>
-            <div className="px-4 py-2 border border-white/10 bg-white/[0.03] rounded-sm">
-              <span className="text-[10px] font-mono text-white/40 uppercase block">{language === 'ru' ? 'Опыт' : 'Experience'}</span>
-              <span className="text-xs font-mono text-white/70">7+ {language === 'ru' ? 'лет' : 'years'}</span>
-            </div>
-          </motion.div>
         </motion.div>
       </div>
     </section>

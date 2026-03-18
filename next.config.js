@@ -6,7 +6,7 @@ const nextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
-  
+
   // Security headers
   async headers() {
     return [
